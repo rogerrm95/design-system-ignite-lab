@@ -1,6 +1,6 @@
 # Storybook #
 
-## Instação 
+## Instalação 
  - Executar comando: npx sb init --builder @storybook/builder-vite --use-npm
  - Rodar: npm run storybook
 
