@@ -53,5 +53,14 @@
 
 # Deploy #
 ## Storybook Deployer
-- Instalar: npm i @storybook/storybook-deployer --save-dev
-- Lembrete: para realizar o deploy, é necessário ter um repositório git
+- Instalar: npm i @storybook/storybook-deployer --save-dev;
+- Lembrete: para realizar o deploy, é necessário ter um repositório git.
+
+## Workflow (github)
+- Criar uma pasta .github > workflows > deploy-docs.yml (file);
+- Muita atenção ao preencher este arquivo;
+- Configuração Storybook: no main.js informar viteFinal a url base.
+
+## CD/CI
+- Integração contínua;
+- Disparar ações toda vez que o código recebe atualizações;
