@@ -14,6 +14,10 @@
  -- StoryObj: utilizar nas variantes;
  -- Importar também a tipagem do próprio componente e utilizar como generics no Meta e StoryObj.
 
+## Plugins (Addons)
+ - Instalar e configurar no arquivo main.cjs (storybook);
+ - plugin: a11y (Acessibilidade), oferece informações de acessibilidade de todos os componentes no qual estamos desenvolvendo;
+
 # Tailwind CSS #
 - Configurar os tokens:
 -- Substituir os tokens ja existentes ou extender (file: tailwind.config.js)
