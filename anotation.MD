@@ -68,3 +68,27 @@
 ## CD/CI
 - Integração contínua;
 - Disparar ações toda vez que o código recebe atualizações;
+
+
+# Testes #
+## Storybook (Addons)
+- Jest | Testing Library | Test Runner;
+- 1.Instalação: npm i @storybook/addon-interactions @storybook/jest @storybook/testing-library @storybook/test-runner -D;
+- 2. Adicionar o Addon no arquivo main.cjs (storybook) e a feature;
+- Executar o passo 1 e 2 antes de iniciar os testes.
+
+- Testando a página de Sign In;
+- Jest: waitFor, expect;
+- Package.json: criar script "test-storybook": "test-storybook";
+-- npm run test-storybook -- --watch | Fica monitando enquanto fazemos alterações no código.
+
+- Axios.
+- Instalação: npm i axios;
+
+- Mocks: Simulação / Imitação;
+- MSW - Mock Service Work;
+- Possui integração nativa com o Storybook;
+-- Instalação: npm i msw msw-storybook-addon -D;
+-- Executar comando: npx msw init public/;
+--- public - pasta publica do projeto, pode mudar dependendo do framework.
+-- Adicionar configuração no main.cjs: staticDirs: ['../public']
