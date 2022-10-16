@@ -25,5 +25,11 @@ export const Default: StoryObj<CheckboxProps> = {
 }
 
 export const CustomComponent: StoryObj<CheckboxProps> = {
-
+    argTypes: {
+        asChild: {
+            table: {
+                disable: true
+            }
+        }
+    }
 }
